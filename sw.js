@@ -5,8 +5,11 @@
  * через network-first без зміни CACHE_VERSION оболонки.
  */
 
-const SHELL_CACHE = 'eore-ua-shell-v14';
-const DATA_CACHE = 'eore-ua-data-v2';
+const SHELL_CACHE = 'eore-ua-shell-v15';
+const DATA_CACHE = 'eore-ua-data-v3';
+
+/** Старий префікс (smartmetro …/mines/) — на demining.pp.ua сайт у корені. */
+const LEGACY_PREFIX = '/mines/';
 
 const CORE_ASSETS = [
   './',
@@ -67,6 +70,44 @@ const CORE_DATA = [
   './data/indexes/ied.json',
   './data/indexes/uav.json',
 ];
+
+/**
+ * Переписує застарілі URL /mines/… на корінь сайту.
+ * @param {URL} url
+ * @returns {URL}
+ */
+function rewriteLegacyUrl(url) {
+  if (!url.pathname.startsWith(LEGACY_PREFIX)) return url;
+  const next = new URL(url.href);
+  next.pathname = `/${url.pathname.slice(LEGACY_PREFIX.length)}`;
+  return next;
+}
+
+/**
+ * Request з урахуванням legacy-шляху /mines/.
+ * @param {Request} request
+ * @returns {Request}
+ */
+function normalizeRequest(request) {
+  const url = new URL(request.url);
+  const rewritten = rewriteLegacyUrl(url);
+  if (rewritten.href === url.href) return request;
+  return new Request(rewritten.href, request);
+}
+
+/**
+ * Відповідь-заглушка, щоб FetchEvent ніколи не падав з network error.
+ * @param {number} status
+ * @param {string} [body]
+ * @returns {Response}
+ */
+function fallbackResponse(status = 504, body = '') {
+  return new Response(body, {
+    status,
+    statusText: status === 404 ? 'Not Found' : 'Gateway Timeout',
+    headers: { 'Content-Type': 'text/plain; charset=utf-8' },
+  });
+}
 
 /**
  * Встановлення SW і попереднє кешування ядра.
@@ -149,20 +190,23 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
-  const isJSON = url.pathname.endsWith('.json');
-  const isMedia = /\.(png|jpe?g|gif|webp|svg|mp4|webm|mp3|wav|pdf|stl|glb|gltf)$/i.test(url.pathname);
+  const normalized = normalizeRequest(request);
+  const path = new URL(normalized.url).pathname;
+
+  const isJSON = path.endsWith('.json');
+  const isMedia = /\.(png|jpe?g|gif|webp|svg|mp4|webm|mp3|wav|pdf|stl|glb|gltf)$/i.test(path);
 
   if (isJSON) {
-    event.respondWith(networkFirst(request, DATA_CACHE, { bustHttpCache: true }));
+    event.respondWith(networkFirst(normalized, DATA_CACHE, { bustHttpCache: true }));
     return;
   }
 
   if (isMedia) {
-    event.respondWith(cacheFirst(request, SHELL_CACHE));
+    event.respondWith(cacheFirst(normalized, SHELL_CACHE));
     return;
   }
 
-  event.respondWith(networkFirst(request, SHELL_CACHE));
+  event.respondWith(networkFirst(normalized, SHELL_CACHE));
 });
 
 /**
@@ -174,10 +218,15 @@ self.addEventListener('fetch', (event) => {
 async function cacheFirst(request, cacheName) {
   const cached = await caches.match(request);
   if (cached) {
-    fetchAndCache(request, cacheName);
+    // Фонове оновлення — обовʼязково з .catch, інакше Uncaught (in promise).
+    fetchAndCache(request, cacheName).catch(() => {});
     return cached;
   }
-  return fetchAndCache(request, cacheName);
+  try {
+    return await fetchAndCache(request, cacheName);
+  } catch {
+    return fallbackResponse(404);
+  }
 }
 
 /**
@@ -190,7 +239,7 @@ async function cacheFirst(request, cacheName) {
 async function networkFirst(request, cacheName, options = {}) {
   try {
     return await fetchAndCache(request, cacheName, options);
-  } catch (error) {
+  } catch {
     const cached = await caches.match(request);
     if (cached) return cached;
 
@@ -198,7 +247,7 @@ async function networkFirst(request, cacheName, options = {}) {
       const indexPage = await caches.match('./index.html');
       if (indexPage) return indexPage;
     }
-    throw error;
+    return fallbackResponse(request.mode === 'navigate' ? 504 : 404);
   }
 }
 
@@ -216,7 +265,7 @@ async function fetchAndCache(request, cacheName, options = {}) {
   const response = await fetch(request, init);
   if (response && response.ok) {
     const cache = await caches.open(cacheName);
-    cache.put(request, response.clone());
+    cache.put(request, response.clone()).catch(() => {});
   }
   return response;
 }
