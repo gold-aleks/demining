@@ -662,18 +662,24 @@ async function init() {
       renderVideoList(videoList, mediaMeta.videos);
     }
 
-    document.querySelectorAll('[data-stl-src]').forEach((el) => {
-      mountSTLViewer(el, {
-        src: el.dataset.stlSrc,
-        fullscreenHref: el.dataset.stlFullscreen,
-        autoRotate: true,
-      });
-    });
-
     enableLazyImages(document.getElementById('objectContent'));
 
+    // Картку показуємо до 3D: збій WebGL/моделі не повинен ховати весь контент.
     loading?.classList.add('is-hidden');
     content?.classList.remove('is-hidden');
+
+    document.querySelectorAll('[data-stl-src]').forEach((el) => {
+      try {
+        mountSTLViewer(el, {
+          src: el.dataset.stlSrc,
+          fullscreenHref: el.dataset.stlFullscreen,
+          autoRotate: true,
+        });
+      } catch (viewerError) {
+        console.warn('3D viewer failed', viewerError);
+        el.innerHTML = '<div class="stl-viewer__status">Не вдалося запустити 3D-перегляд.</div>';
+      }
+    });
   } catch (err) {
     console.error(err);
     loading?.classList.add('is-hidden');
