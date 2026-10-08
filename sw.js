@@ -5,8 +5,8 @@
  * через network-first без зміни CACHE_VERSION оболонки.
  */
 
-const SHELL_CACHE = 'eore-ua-shell-v13';
-const DATA_CACHE = 'eore-ua-data-v1';
+const SHELL_CACHE = 'eore-ua-shell-v14';
+const DATA_CACHE = 'eore-ua-data-v2';
 
 const CORE_ASSETS = [
   './',

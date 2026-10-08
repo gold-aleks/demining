@@ -144,6 +144,27 @@ function toolbarHTML(showFullscreen) {
  * @param {{src?: string, buffer?: ArrayBuffer, filename?: string, color?: number, autoRotate?: boolean, fullscreenHref?: string}} [options]
  * @returns {{dispose: () => void, loadFromUrl: (url: string) => Promise<void>, loadFromBuffer: (buffer: ArrayBuffer, filename?: string) => Promise<void>, resetView: () => void}}
  */
+/**
+ * Порожній API, коли WebGL недоступний — картка сторінки лишається робочою.
+ * @param {HTMLElement} container
+ * @param {string} message
+ * @returns {{ready: Promise<void>, dispose: () => void, loadFromUrl: () => Promise<void>, loadFromBuffer: () => Promise<void>, resetView: () => void}}
+ */
+function unavailableViewer(container, message) {
+  container.classList.add('stl-viewer');
+  container.innerHTML = `<div class="stl-viewer__status">${message}</div>`;
+  const noop = async () => {};
+  return {
+    ready: Promise.resolve(),
+    dispose() {
+      container.innerHTML = '';
+    },
+    loadFromUrl: noop,
+    loadFromBuffer: noop,
+    resetView() {},
+  };
+}
+
 export function mountSTLViewer(container, options = {}) {
   if (!container) {
     throw new Error('STL viewer: контейнер не задано');
@@ -166,7 +187,16 @@ export function mountSTLViewer(container, options = {}) {
   const status = container.querySelector('.stl-viewer__status');
   const toolbar = container.querySelector('.stl-viewer__toolbar');
 
-  const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
+  let renderer;
+  try {
+    renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
+  } catch (error) {
+    console.warn('STL viewer: WebGL недоступний', error);
+    return unavailableViewer(
+      container,
+      '3D-перегляд недоступний у цьому браузері. Відкрийте модель на весь екран або на іншому пристрої.',
+    );
+  }
   renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
   renderer.outputColorSpace = THREE.SRGBColorSpace;
   renderer.toneMapping = THREE.ACESFilmicToneMapping;

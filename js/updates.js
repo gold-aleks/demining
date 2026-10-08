@@ -7,8 +7,8 @@ import { clearLoaderCache, loadManifest } from './loader.js';
 
 /**
  * Корінь додатку відносно поточного URL.
- * На сервері: https://smartmetro.pp.ua/mines/ → "/mines/"
- * Локально з кореня сервера → "/"
+ * На проді (https://demining.pp.ua/) → "/"
+ * У підкаталозі (…/mines/index.html) → "/mines/"
  * @returns {string}
  */
 export function getAppBase() {
@@ -337,7 +337,7 @@ async function registerAndWatchServiceWorker() {
   if (!('serviceWorker' in navigator)) return null;
 
   try {
-    // На проді корінь — /mines/; локально — каталог поточної сторінки.
+    // Scope = каталог поточної сторінки (корінь домену або підтека).
     const base = getAppBase();
     const registration = await navigator.serviceWorker.register(`${base}sw.js`, {
       scope: base,
