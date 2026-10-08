@@ -1,0 +1,298 @@
+{
+  "category": "Ракети",
+  "folder": "missiles",
+  "objects": [
+    {
+      "id": "9M720",
+      "name": "9М720 «Іскандер-М»",
+      "category": "Ракети",
+      "type": "Оперативно-тактична квазібалістична ракета малої дальності (SRBM)",
+      "subtype": "Осколково-фугасна / касетна / проникаюча",
+      "family": "9K720 / Іскандер / SS-26 Stone",
+      "caliber": "920 мм",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/9m720.webp",
+      "country": [
+        "росія"
+      ],
+      "service_since": 2006,
+      "updated": "2026-08-20",
+      "status": "широко застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "9M720",
+        "9М720",
+        "9M723",
+        "Іскандер",
+        "Іскандер-М",
+        "Iskander",
+        "SS-26",
+        "балістична ракета",
+        "ОТР",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "S8000",
+      "name": "S8000 «Бандероль»",
+      "category": "Ракети",
+      "type": "Малогабаритна крилата ракета",
+      "subtype": "Осколково-фугасна",
+      "family": "S8000 / Бандероль",
+      "caliber": "300 мм",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/banderol.webp",
+      "country": [
+        "росія"
+      ],
+      "service_since": 2025,
+      "updated": "2026-08-15",
+      "status": "застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "S8000",
+        "Бандероль",
+        "Banderol",
+        "крилата ракета",
+        "ракета",
+        "ОФБЧ-150",
+        "Оріон",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "Falarick105",
+      "name": "Falarick 105",
+      "category": "Ракети",
+      "type": "105-мм гарматна протитанкова керована ракета (CLGP)",
+      "subtype": "Тандемна кумулятивна (HEAT)",
+      "family": "Falarick",
+      "caliber": "105 мм",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/falarick105.webp",
+      "country": [
+        "Україна"
+      ],
+      "service_since": 2010,
+      "updated": "2026-08-16",
+      "status": "експорт / застосовується з гармат 105 мм",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "Falarick 105",
+        "Falarick105",
+        "CLGP",
+        "ПТКР",
+        "HEAT",
+        "105 мм",
+        "Луч",
+        "Cockerill",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "Falarick90",
+      "name": "Falarick 90",
+      "category": "Ракети",
+      "type": "90-мм гарматна протитанкова керована ракета (CLGP)",
+      "subtype": "Тандемна кумулятивна (HEAT)",
+      "family": "Falarick",
+      "caliber": "90 мм",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/falarick90.webp",
+      "country": [
+        "Україна"
+      ],
+      "service_since": 2010,
+      "updated": "2026-08-16",
+      "status": "експорт / застосовується з гармат 90 мм",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "Falarick 90",
+        "Falarick90",
+        "CLGP",
+        "ПТКР",
+        "HEAT",
+        "90 мм",
+        "Луч",
+        "LCTS90",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "FP5",
+      "name": "FP-5 «Фламінго»",
+      "category": "Ракети",
+      "type": "Наземна крилата ракета великої дальності (SSCM)",
+      "subtype": "Осколково-фугасна (HE-Blast)",
+      "family": "FP-5 / Фламінго",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/fp5.webp",
+      "country": [
+        "Україна"
+      ],
+      "service_since": 2025,
+      "updated": "2026-08-16",
+      "status": "застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "FP-5",
+        "FP5",
+        "Фламінго",
+        "Flamingo",
+        "крилата ракета",
+        "Fire Point",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "R360",
+      "name": "Р-360 «Нептун»",
+      "category": "Ракети",
+      "type": "Протикорабельна / багатоцільова крилата ракета",
+      "subtype": "Осколково-фугасна проникаюча (HE-Blast / SAP)",
+      "family": "Нептун / RK-360МЦ",
+      "caliber": "380 мм",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/neptun.webp",
+      "country": [
+        "Україна"
+      ],
+      "service_since": 2020,
+      "updated": "2026-08-16",
+      "status": "на озброєнні / застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "Р-360",
+        "Нептун",
+        "Neptune",
+        "крилата ракета",
+        "протикорабельна",
+        "ПКР",
+        "Луч",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "RK2S",
+      "name": "РК-2С «Скіф»",
+      "category": "Ракети",
+      "type": "130-мм протитанкова керована ракета (ПТКР)",
+      "subtype": "Тандемна кумулятивна (HEAT)",
+      "family": "Скіф / Стугна-П",
+      "caliber": "130 мм",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/rk2s.webp",
+      "country": [
+        "Україна"
+      ],
+      "service_since": 2011,
+      "updated": "2026-08-16",
+      "status": "широко використовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "РК-2С",
+        "RK-2S",
+        "Скіф",
+        "SKIF",
+        "Стугна-П",
+        "Stugna-P",
+        "ПТКР",
+        "ПТРК",
+        "130 мм",
+        "Луч",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "RK3",
+      "name": "РК-3 «Корсар»",
+      "category": "Ракети",
+      "type": "107-мм протитанкова керована ракета (ПТКР)",
+      "subtype": "Тандемна кумулятивна (HEAT)",
+      "family": "Корсар",
+      "caliber": "107 мм",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/rk3.webp",
+      "country": [
+        "Україна"
+      ],
+      "service_since": 2017,
+      "updated": "2026-08-16",
+      "status": "використовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "РК-3",
+        "RK-3",
+        "Корсар",
+        "Korsar",
+        "Korsa",
+        "ПТКР",
+        "ПТРК",
+        "107 мм",
+        "Луч",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "S8",
+      "name": "С-8",
+      "category": "Ракети",
+      "type": "80-мм некерована авіаційна ракета (НАР)",
+      "subtype": "Кумулятивно-осколкова (HEAT-FRAG) / інші БЧ за модифікацією",
+      "family": "С-8 / S-8",
+      "caliber": "80 мм",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/C-8.webp",
+      "country": [
+        "СРСР",
+        "росія",
+        "Україна",
+        "Болгарія",
+        "інші країни"
+      ],
+      "service_since": 1984,
+      "updated": "2026-09-04",
+      "status": "широко використовується / часто як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "С-8",
+        "C-8",
+        "S-8",
+        "С-8КО",
+        "Б-8",
+        "НАР",
+        "авіаційна ракета",
+        "80 мм",
+        "HEAT",
+        "ВНП",
+        "UXO"
+      ]
+    }
+  ]
+}

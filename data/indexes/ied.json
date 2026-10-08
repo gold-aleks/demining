@@ -1,0 +1,37 @@
+{
+  "category": "IED",
+  "folder": "ied",
+  "objects": [
+    {
+      "id": "FPVRemnant",
+      "name": "Залишок FPV-боєприпасу",
+      "family": "FPV / СВП",
+      "category": "IED",
+      "type": "FPV-дрон із бойовою частиною або її уламки після падіння / недолету",
+      "thumbnail": "data/photos/fpv-remnant.webp",
+      "danger_level": "critical",
+      "country": [
+        "Україна",
+        "росія",
+        "інші"
+      ],
+      "service_since": 2022,
+      "updated": "2026-08-09",
+      "tags": [
+        "FPV",
+        "FPV-дрон",
+        "FPV-боєприпас",
+        "залишок FPV",
+        "камікадзе",
+        "дрон",
+        "БПЛА",
+        "СВП",
+        "IED",
+        "UXO"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "category": "Гранати",
+  "folder": "grenades",
+  "objects": [
+    {
+  "id": "F1",
+  "name": "Ф-1",
+  "category": "Гранати",
+  "type": "Ручна осколкова оборонна граната",
+  "thumbnail": "data/photos/f1.webp",
+  "danger_level": "critical",
+  "country": [
+    "СРСР",
+    "росія",
+    "Україна"
+  ],
+  "status": "широко використовується",
+  "file": "data/json/F1.json",
+  "tags": [
+    "граната",
+    "Ф-1",
+    "F1",
+    "Лимонка",
+    "осколкова"
+  ]
+},
+{
+  "id": "RGD5",
+  "name": "РГД-5",
+  "category": "Гранати",
+  "type": "Ручна уламкова наступальна граната",
+  "thumbnail": "data/photos/rgd5.webp",
+  "danger_level": "critical",
+  "country": [
+    "СРСР",
+    "росія",
+    "Україна"
+  ],
+  "status": "широко використовується",
+  "file": "data/json/RGD5.json",
+  "tags": [
+    "РГД-5",
+    "РГД5",
+    "RGD5",
+    "граната",
+    "осколкова",
+    "наступальна"
+  ]
+},
+{
+  "id": "RGO",
+  "name": "РГО",
+  "category": "Гранати",
+  "type": "Ручна уламкова оборонна граната",
+  "thumbnail": "data/photos/rgo.webp",
+  "danger_level": "critical",
+  "country": [
+    "СРСР",
+    "росія",
+    "Україна"
+  ],
+  "status": "широко використовується",
+  "file": "data/json/RGO.json",
+  "tags": [
+    "РГО",
+    "RGO",
+    "граната",
+    "осколкова",
+    "оборонна",
+    "УДЗ"
+  ]
+},
+    {
+      "id": "RKG3",
+      "name": "РКГ-3",
+      "family": "РКГ",
+      "category": "Гранати",
+      "type": "Ручна протитанкова кумулятивна граната",
+      "thumbnail": "data/photos/rkg3.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія",
+        "Болгарія",
+        "НДР"
+      ],
+      "service_since": 1950,
+      "updated": "2026-08-08",
+      "tags": [
+        "РКГ",
+        "РКГ-3",
+        "RKG",
+        "RKG3",
+        "RKG-3",
+        "граната",
+        "протитанкова",
+        "кумулятивна",
+        "HEAT"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "VOG17",
+      "name": "ВОГ-17 / ВОГ-17М",
+      "family": "ВОГ",
+      "category": "Гранати",
+      "type": "30-мм осколковий гранатометний постріл",
+      "thumbnail": "data/photos/vog17.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія",
+        "Україна",
+        "Болгарія"
+      ],
+      "service_since": 1971,
+      "updated": "2026-08-08",
+      "tags": [
+        "ВОГ",
+        "ВОГ-17",
+        "ВОГ-17М",
+        "VOG",
+        "VOG17",
+        "VOG-17",
+        "VOG-17M",
+        "граната",
+        "гранатометний постріл",
+        "осколкова",
+        "АГС-17",
+        "БПЛА",
+        "30 мм"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "VOG25",
+      "name": "ВОГ-25",
+      "family": "ВОГ",
+      "category": "Гранати",
+      "type": "40-мм осколково-фугасна граната до підствольного гранатомета",
+      "thumbnail": "data/photos/vog25.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія",
+        "Україна",
+        "Болгарія"
+      ],
+      "service_since": 1978,
+      "updated": "2026-08-08",
+      "tags": [
+        "ВОГ",
+        "ВОГ-25",
+        "ВОГ25",
+        "VOG",
+        "VOG-25",
+        "VOG25",
+        "граната",
+        "гранатометний постріл",
+        "осколкова",
+        "підствольний",
+        "ГП-25",
+        "40 мм",
+        "ВМГ-К"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "DM51",
+      "name": "DM-51",
+      "family": "DM / HGR",
+      "category": "Гранати",
+      "type": "Ручна осколково-фугасна граната (наступальна / оборонна)",
+      "thumbnail": "data/photos/dm51.webp",
+      "danger_level": "critical",
+      "country": [
+        "Німеччина"
+      ],
+      "service_since": 1978,
+      "updated": "2026-08-08",
+      "tags": [
+        "DM-51",
+        "DM51",
+        "HGR DM51",
+        "Splitter",
+        "граната",
+        "осколкова",
+        "Німеччина",
+        "Diehl",
+        "DM82"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "M430A1",
+      "name": "M430A1",
+      "family": "M430 / 40×53 мм",
+      "category": "Гранати",
+      "type": "40-мм граната подвійного призначення (HEDP) / саморобна авіабомба БПЛА",
+      "thumbnail": "data/photos/m430a1.webp",
+      "danger_level": "critical",
+      "country": [
+        "США"
+      ],
+      "service_since": 1970,
+      "updated": "2026-08-08",
+      "tags": [
+        "M430",
+        "M430A1",
+        "40mm",
+        "40×53",
+        "HEDP",
+        "MK19",
+        "граната",
+        "кумулятивна",
+        "БПЛА",
+        "UAV",
+        "дрон",
+        "саморобна авіабомба",
+        "США",
+        "M550",
+        "dual purpose"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": true
+    },
+    {
+      "id": "DG01",
+      "name": "ДГ-01",
+      "family": "ДГ",
+      "category": "Гранати",
+      "type": "Ручна димова граната (носій диму)",
+      "thumbnail": "data/photos/dg01.webp",
+      "danger_level": "high",
+      "country": [
+        "Україна"
+      ],
+      "service_since": 2021,
+      "updated": "2026-08-15",
+      "tags": [
+        "ДГ-01",
+        "ДГ01",
+        "DG-01",
+        "DG01",
+        "граната",
+        "димова",
+        "smoke",
+        "SMK",
+        "Україна"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "RGT27S",
+      "name": "РГТ-27С",
+      "family": "РГТ-27",
+      "category": "Гранати",
+      "type": "Ручна термобарична граната (об'ємного вибуху)",
+      "thumbnail": "data/photos/rgt27s.webp",
+      "danger_level": "critical",
+      "country": [
+        "Україна"
+      ],
+      "service_since": 2019,
+      "updated": "2026-08-15",
+      "tags": [
+        "РГТ-27С",
+        "РГТ27С",
+        "RGT-27S",
+        "RGT27S",
+        "GHTB-27",
+        "граната",
+        "термобарична",
+        "FAE",
+        "Україна"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "RGT27S2",
+      "name": "РГТ-27С2",
+      "family": "РГТ-27",
+      "category": "Гранати",
+      "type": "Ручна термобарична граната (об'ємного вибуху)",
+      "thumbnail": "data/photos/rgt27s2.webp",
+      "danger_level": "critical",
+      "country": [
+        "Україна"
+      ],
+      "service_since": 2019,
+      "updated": "2026-08-15",
+      "tags": [
+        "РГТ-27С2",
+        "РГТ27С2",
+        "RGT-27S2",
+        "RGT27S2",
+        "GHTB-27",
+        "граната",
+        "термобарична",
+        "FAE",
+        "Україна"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "Teren6",
+      "name": "Терен-6",
+      "family": "Терен",
+      "category": "Гранати",
+      "type": "Ручна газова граната нелетальної дії (іритант)",
+      "thumbnail": "data/photos/teren6.webp",
+      "danger_level": "medium",
+      "country": [
+        "Україна"
+      ],
+      "service_since": 1998,
+      "updated": "2026-08-15",
+      "tags": [
+        "Терен-6",
+        "Teren-6",
+        "Tepeh-6",
+        "граната",
+        "газова",
+        "іритант",
+        "CS",
+        "МПК",
+        "нелетальна",
+        "Україна"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "Teren7M",
+      "name": "Терен-7М",
+      "family": "Терен",
+      "category": "Гранати",
+      "type": "Ручна світло-шумова граната нелетальної дії (flash-bang)",
+      "thumbnail": "data/photos/teren7m.webp",
+      "danger_level": "high",
+      "country": [
+        "Україна"
+      ],
+      "service_since": 1998,
+      "updated": "2026-08-15",
+      "tags": [
+        "Терен-7М",
+        "Teren-7M",
+        "Tepeh-7M",
+        "Терен-7",
+        "граната",
+        "світло-шумова",
+        "flash-bang",
+        "нелетальна",
+        "Україна"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    }
+  ]
+}

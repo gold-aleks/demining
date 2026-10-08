@@ -1,0 +1,1049 @@
+{
+  "category": "Авіабомби",
+  "folder": "aerial-bombs",
+  "objects": [
+    {
+      "id": "FAB100",
+      "name": "ФАБ-100",
+      "category": "Авіабомби",
+      "type": "Фугасна авіаційна бомба",
+      "family": "ФАБ",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/fab100.webp",
+      "country": [
+        "СРСР",
+        "росія",
+        "Україна"
+      ],
+      "status": "широко використовується",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "ФАБ-100",
+        "FAB-100",
+        "FAB100",
+        "авіабомба",
+        "фугасна",
+        "бомба",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "FAB250",
+      "name": "ФАБ-250",
+      "category": "Авіабомби",
+      "type": "Фугасна авіаційна бомба",
+      "family": "ФАБ",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/fab250.webp",
+      "country": [
+        "СРСР",
+        "росія",
+        "Україна"
+      ],
+      "status": "широко використовується",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "ФАБ-250",
+        "FAB-250",
+        "FAB250",
+        "авіабомба",
+        "фугасна",
+        "бомба",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "ABKP500",
+      "name": "АБК-П-500",
+      "family": "АБК",
+      "category": "Авіабомби",
+      "type": "Касетна авіаційна бомба (контейнер суббоєприпасів)",
+      "thumbnail": "data/photos/abkp500.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1940,
+      "updated": "2026-08-15",
+      "tags": [
+        "АБК-П-500",
+        "ABK-P-500",
+        "касета",
+        "АЖ-2",
+        "авіабомба",
+        "cluster"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "AgitAB500300",
+      "name": "АгітАБ-500-300",
+      "family": "АгітАБ",
+      "category": "Авіабомби",
+      "type": "Агітаційна авіаційна бомба (викид листівок)",
+      "thumbnail": "data/photos/agitab500300.webp",
+      "danger_level": "high",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1960,
+      "updated": "2026-08-15",
+      "tags": [
+        "АгітАБ-500-300",
+        "AgitAB-500-300",
+        "АГИТАБ",
+        "листівки",
+        "агітаційна",
+        "авіабомба"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "AO50100",
+      "name": "АО-50/100",
+      "family": "АО",
+      "category": "Авіабомби",
+      "type": "Осколкова авіаційна бомба",
+      "thumbnail": "data/photos/ao50100.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1930,
+      "updated": "2026-08-15",
+      "tags": [
+        "АО-50/100",
+        "AO-50/100",
+        "осколкова",
+        "авіабомба",
+        "Друга світова"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "AZB5",
+      "name": "АЗБ-5",
+      "family": "АЗБ / ЗАБ",
+      "category": "Авіабомби",
+      "type": "Запальна авіаційна бомба",
+      "thumbnail": "data/photos/azb5.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1941,
+      "updated": "2026-08-15",
+      "tags": [
+        "АЗБ-5",
+        "AZB-5",
+        "запальне",
+        "авіабомба",
+        "Друга світова"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "BetAB150DS",
+      "name": "БетАБ-150ДС",
+      "family": "БетАБ",
+      "category": "Авіабомби",
+      "type": "Бетонобійна реактивна авіаційна бомба",
+      "thumbnail": "data/photos/betab150ds.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1943,
+      "updated": "2026-08-15",
+      "tags": [
+        "БетАБ-150ДС",
+        "BetAB-150DS",
+        "BETAB",
+        "бетонобійна",
+        "авіабомба"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "BetAB500",
+      "name": "БетАБ-500",
+      "family": "БетАБ",
+      "category": "Авіабомби",
+      "type": "Бетонобійна фугасно-осколкова авіаційна бомба",
+      "thumbnail": "data/photos/betab500.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1970,
+      "updated": "2026-08-15",
+      "tags": [
+        "БетАБ-500",
+        "BetAB-500",
+        "BETAB-500",
+        "бетонобійна",
+        "авіабомба",
+        "Україна"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "BetAB500ShP",
+      "name": "БетАБ-500ШП",
+      "family": "БетАБ",
+      "category": "Авіабомби",
+      "type": "Бетонобійна реактивна парашутна авіаційна бомба (проти ЗПС)",
+      "thumbnail": "data/photos/betab500shp.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1970,
+      "updated": "2026-08-15",
+      "tags": [
+        "БетАБ-500ШП",
+        "BetAB-500ShP",
+        "ЗПС",
+        "бетонобійна",
+        "авіабомба",
+        "Україна"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "BrAB1000",
+      "name": "БрАБ-1000",
+      "family": "БрАБ",
+      "category": "Авіабомби",
+      "type": "Бронебійна авіаційна бомба",
+      "thumbnail": "data/photos/brab1000.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1938,
+      "updated": "2026-08-15",
+      "tags": [
+        "БрАБ-1000",
+        "BrAB-1000",
+        "бронебійна",
+        "авіабомба",
+        "Друга світова"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "BrAB200DS",
+      "name": "БрАБ-200ДС",
+      "family": "БрАБ",
+      "category": "Авіабомби",
+      "type": "Бронебійна реактивна авіаційна бомба",
+      "thumbnail": "data/photos/brab200ds.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1939,
+      "updated": "2026-08-15",
+      "tags": [
+        "БрАБ-200ДС",
+        "BrAB-200DS",
+        "бронебійна",
+        "реактивна",
+        "авіабомба"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "BrAB220",
+      "name": "БрАБ-220",
+      "family": "БрАБ",
+      "category": "Авіабомби",
+      "type": "Бронебійна авіаційна бомба",
+      "thumbnail": "data/photos/brab220.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1930,
+      "updated": "2026-08-15",
+      "tags": [
+        "БрАБ-220",
+        "BrAB-220",
+        "Б-220",
+        "бронебійна",
+        "авіабомба"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "BrAB500",
+      "name": "БрАБ-500",
+      "family": "БрАБ",
+      "category": "Авіабомби",
+      "type": "Бронебійна авіаційна бомба",
+      "thumbnail": "data/photos/brab500.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1938,
+      "updated": "2026-08-15",
+      "tags": [
+        "БрАБ-500",
+        "BrAB-500",
+        "бронебійна",
+        "авіабомба",
+        "Друга світова"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "DOSAB100T",
+      "name": "ДОСАБ-100Т",
+      "family": "ДОСАБ",
+      "category": "Авіабомби",
+      "type": "Денна орієнтирно-сигнальна авіаційна бомба",
+      "thumbnail": "data/photos/dosab100t.webp",
+      "danger_level": "high",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1950,
+      "updated": "2026-08-15",
+      "tags": [
+        "ДОСАБ-100Т",
+        "DOSAB-100T",
+        "ДОСАБ",
+        "димова",
+        "маркувальна",
+        "авіабомба"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FAB50",
+      "name": "ФАБ-50",
+      "family": "ФАБ",
+      "type": "Фугасна авіаційна бомба",
+      "thumbnail": "data/photos/fab50.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1932,
+      "tags": [
+        "ФАБ-50",
+        "FAB-50",
+        "фугасна",
+        "авіабомба"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FAB100125TU",
+      "name": "ФАБ-100-125TU",
+      "family": "ФАБ",
+      "type": "Фугасна авіаційна бомба",
+      "thumbnail": "data/photos/fab100125tu.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1950,
+      "tags": [
+        "ФАБ-100-125TU",
+        "FAB-100-125TU",
+        "ФАБ-100",
+        "авіабомба"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FAB250M46",
+      "name": "ФАБ-250 М46",
+      "family": "ФАБ",
+      "type": "Фугасна авіаційна бомба (високий опір)",
+      "thumbnail": "data/photos/fab250m46.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1946,
+      "tags": [
+        "ФАБ-250 М46",
+        "FAB-250 M46",
+        "ФАБ-250",
+        "авіабомба"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FAB250M54",
+      "name": "ФАБ-250 М54",
+      "family": "ФАБ",
+      "type": "Фугасна авіаційна бомба (високий опір, тонкостінна)",
+      "thumbnail": "data/photos/fab250m54.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1954,
+      "tags": [
+        "ФАБ-250 М54",
+        "FAB-250 M54",
+        "ФАБ-250",
+        "авіабомба"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FAB250M62",
+      "name": "ФАБ-250 М62",
+      "family": "ФАБ",
+      "type": "Фугасна авіаційна бомба (низький опір)",
+      "thumbnail": "data/photos/fab250m62.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1962,
+      "tags": [
+        "ФАБ-250 М62",
+        "FAB-250 M62",
+        "УМПК",
+        "авіабомба",
+        "Україна"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FAB250TS",
+      "name": "ФАБ-250ТС",
+      "family": "ФАБ",
+      "type": "Фугасна товстостінна авіаційна бомба",
+      "thumbnail": "data/photos/fab250ts.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1960,
+      "tags": [
+        "ФАБ-250ТС",
+        "FAB-250TS",
+        "товстостінна",
+        "авіабомба"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FAB500M54",
+      "name": "ФАБ-500 М54",
+      "family": "ФАБ",
+      "type": "Фугасна авіаційна бомба (високий опір)",
+      "thumbnail": "data/photos/fab500m54.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1954,
+      "tags": [
+        "ФАБ-500 М54",
+        "FAB-500 M54",
+        "ФАБ-500",
+        "авіабомба"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FAB500M62",
+      "name": "ФАБ-500 М62",
+      "family": "ФАБ",
+      "type": "Фугасна авіаційна бомба (низький опір)",
+      "thumbnail": "data/photos/fab500m62.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1962,
+      "tags": [
+        "ФАБ-500 М62",
+        "FAB-500 M62",
+        "УМПК",
+        "авіабомба",
+        "Україна"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FAB500ShL",
+      "name": "ФАБ-500ШЛ",
+      "family": "ФАБ",
+      "type": "Фугасна штурмова авіаційна бомба (парашут, надповерхневий вибух)",
+      "thumbnail": "data/photos/fab500shl.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1970,
+      "tags": [
+        "ФАБ-500ШЛ",
+        "FAB-500 ShL",
+        "парашут",
+        "авіабомба"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FAB500ShN",
+      "name": "ФАБ-500ШН",
+      "family": "ФАБ",
+      "type": "Фугасна штурмова авіаційна бомба (парашут, маловисотна)",
+      "thumbnail": "data/photos/fab500shn.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1970,
+      "tags": [
+        "ФАБ-500ШН",
+        "FAB-500 ShN",
+        "парашут",
+        "авіабомба"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FAB500T",
+      "name": "ФАБ-500Т",
+      "family": "ФАБ",
+      "type": "Фугасна термостійка авіаційна бомба",
+      "thumbnail": "data/photos/fab500t.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1970,
+      "tags": [
+        "ФАБ-500Т",
+        "FAB-500T",
+        "термостійка",
+        "авіабомба"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FAB1500M54",
+      "name": "ФАБ-1500 М54",
+      "family": "ФАБ",
+      "type": "Фугасна авіаційна бомба великого калібру",
+      "thumbnail": "data/photos/fab1500m54.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1954,
+      "tags": [
+        "ФАБ-1500 М54",
+        "FAB-1500 M54",
+        "УМПК",
+        "авіабомба",
+        "Україна"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FAB3000M46",
+      "name": "ФАБ-3000 М46",
+      "family": "ФАБ",
+      "type": "Фугасна авіаційна бомба надвеликого калібру",
+      "thumbnail": "data/photos/fab3000m46.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1946,
+      "tags": [
+        "ФАБ-3000 М46",
+        "FAB-3000 M46",
+        "ФАБ-3000",
+        "авіабомба"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FAB3000M54",
+      "name": "ФАБ-3000 М54",
+      "family": "ФАБ",
+      "type": "Фугасна авіаційна бомба надвеликого калібру",
+      "thumbnail": "data/photos/fab3000m54.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1954,
+      "tags": [
+        "ФАБ-3000 М54",
+        "FAB-3000 M54",
+        "УМПК",
+        "авіабомба",
+        "Україна"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FAB500TS",
+      "name": "ФАБ-500ТС",
+      "family": "ФАБ",
+      "type": "Фугасна товстостінна авіаційна бомба",
+      "thumbnail": "data/photos/fab500ts.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1960,
+      "tags": [
+        "ФАБ-500ТС",
+        "FAB-500TS",
+        "товстостінна",
+        "авіабомба"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FotAB100140",
+      "name": "ФотАБ-100-140",
+      "family": "ФотАБ",
+      "type": "Фотоосвітлювальна авіаційна бомба (термостійка)",
+      "thumbnail": "data/photos/fotab100140.webp",
+      "danger_level": "high",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1970,
+      "tags": [
+        "ФотАБ-100-140",
+        "FotAB-100-140",
+        "фотобомба",
+        "авіабомба"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FotAB10080",
+      "name": "ФотАБ-100-80",
+      "family": "ФотАБ",
+      "type": "Фотоосвітлювальна авіаційна бомба",
+      "thumbnail": "data/photos/fotab10080.webp",
+      "danger_level": "high",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1965,
+      "tags": [
+        "ФотАБ-100-80",
+        "FotAB-100-80",
+        "фотобомба",
+        "авіабомба"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FotAB250T",
+      "name": "ФотАБ-250Т",
+      "family": "ФотАБ",
+      "type": "Фотоосвітлювальна термостійка авіаційна бомба",
+      "thumbnail": "data/photos/fotab250t.webp",
+      "danger_level": "high",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1970,
+      "tags": [
+        "ФотАБ-250Т",
+        "FotAB-250T",
+        "фотобомба",
+        "авіабомба"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "FZAB500",
+      "name": "ФЗАБ-500",
+      "family": "ФЗАБ",
+      "type": "Фугасно-запалювальна авіаційна бомба",
+      "thumbnail": "data/photos/fzab500.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1960,
+      "tags": [
+        "ФЗАБ-500",
+        "FZAB-500",
+        "запалювальна",
+        "авіабомба",
+        "Україна"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "GROME2",
+      "name": "Грім-Е2",
+      "family": "Грім",
+      "type": "Керована плануюча авіаційна бомба",
+      "thumbnail": "data/photos/grome2.webp",
+      "danger_level": "critical",
+      "country": [
+        "росія"
+      ],
+      "service_since": 2015,
+      "tags": [
+        "Грім-Е2",
+        "GROM-E2",
+        "Kh-36",
+        "плануюча",
+        "авіабомба",
+        "Україна"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "KAB1500KR",
+      "name": "КАБ-1500Кр",
+      "family": "КАБ",
+      "type": "Коригована авіаційна бомба (ТВ-кореляційна ГСН)",
+      "thumbnail": "data/photos/kab1500kr.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1980,
+      "tags": [
+        "КАБ-1500Кр",
+        "KAB-1500KR",
+        "КАБ",
+        "керована",
+        "авіабомба"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "KAB1500L",
+      "name": "КАБ-1500Л",
+      "family": "КАБ",
+      "type": "Коригована авіаційна бомба (лазерна ГСН)",
+      "thumbnail": "data/photos/kab1500l.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1987,
+      "tags": [
+        "КАБ-1500Л",
+        "KAB-1500L",
+        "лазерна",
+        "авіабомба",
+        "Україна"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "KAB1500LG",
+      "name": "КАБ-1500ЛГ",
+      "family": "КАБ",
+      "type": "Коригована авіаційна бомба (лазерна гіростабілізована ГСН)",
+      "thumbnail": "data/photos/kab1500lg.webp",
+      "danger_level": "critical",
+      "country": [
+        "росія"
+      ],
+      "service_since": 2009,
+      "tags": [
+        "КАБ-1500ЛГ",
+        "KAB-1500LG",
+        "лазерна",
+        "авіабомба"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "KAB250",
+      "name": "КАБ-250",
+      "family": "КАБ",
+      "type": "Коригована авіаційна бомба калібру 250 кг",
+      "thumbnail": "data/photos/kab250.webp",
+      "danger_level": "critical",
+      "country": [
+        "росія"
+      ],
+      "service_since": 2015,
+      "tags": [
+        "КАБ-250",
+        "KAB-250",
+        "керована",
+        "авіабомба",
+        "Україна"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "KAB500KR",
+      "name": "КАБ-500Кр",
+      "family": "КАБ",
+      "type": "Коригована авіаційна бомба (ТВ-кореляційна ГСН)",
+      "thumbnail": "data/photos/kab500kr.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1980,
+      "tags": [
+        "КАБ-500Кр",
+        "KAB-500KR",
+        "ТВ",
+        "авіабомба",
+        "Україна"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "KAB500L",
+      "name": "КАБ-500Л",
+      "family": "КАБ",
+      "type": "Коригована авіаційна бомба (лазерна ГСН)",
+      "thumbnail": "data/photos/kab500l.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1979,
+      "tags": [
+        "КАБ-500Л",
+        "KAB-500L",
+        "лазерна",
+        "авіабомба",
+        "Україна"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "KAB500OD",
+      "name": "КАБ-500-ОД",
+      "family": "КАБ",
+      "type": "Коригована авіаційна бомба (об'ємно-детонувальна БЧ)",
+      "thumbnail": "data/photos/kab500od.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1980,
+      "tags": [
+        "КАБ-500-ОД",
+        "KAB-500-OD",
+        "термобарична",
+        "авіабомба"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "KAB500SZ",
+      "name": "КАБ-500С",
+      "family": "КАБ",
+      "type": "Коригована авіаційна бомба (супутникова ГСН)",
+      "thumbnail": "data/photos/kab500sz.webp",
+      "danger_level": "critical",
+      "country": [
+        "росія"
+      ],
+      "service_since": 2015,
+      "tags": [
+        "КАБ-500С",
+        "KAB-500S",
+        "KAB-500 SZ",
+        "ГЛОНАСС",
+        "авіабомба",
+        "Україна"
+      ],
+      "category": "Авіабомби",
+      "updated": "2026-08-15",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    }
+  ]
+}

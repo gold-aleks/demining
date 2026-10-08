@@ -1,0 +1,104 @@
+{
+  "version": "1.1",
+  "updated": "2026-09-04",
+  "title": "Стандарти IMAS",
+  "description": "Польові витяги з Міжнародних стандартів протимінної діяльності. Не замінюють офіційний текст IMAS.",
+  "official_site": "https://www.mineactionstandards.org/",
+  "series": [
+    { "id": "08", "name": "Обстеження / survey" },
+    { "id": "09", "name": "Очищення / clearance" },
+    { "id": "10", "name": "Безпека та охорона праці" }
+  ],
+  "documents": [
+    {
+      "id": "08.10",
+      "code": "IMAS 08.10",
+      "title_uk": "Нетехнічне обстеження",
+      "title_en": "Non-technical survey",
+      "series": "08",
+      "file": "data/imas/docs/08.10.json",
+      "tags": ["NTS", "обстеження", "survey", "SHA", "CHA", "land release", "cancellation"],
+      "updated": "2026-09-04"
+    },
+    {
+      "id": "08.20",
+      "code": "IMAS 08.20",
+      "title_uk": "Технічне обстеження",
+      "title_en": "Technical survey",
+      "series": "08",
+      "file": "data/imas/docs/08.20.json",
+      "tags": ["TS", "обстеження", "survey", "land release", "reduction", "цільове"],
+      "updated": "2026-09-04"
+    },
+    {
+      "id": "09.10",
+      "code": "IMAS 09.10",
+      "title_uk": "Вимоги до очищення",
+      "title_en": "Clearance requirements",
+      "series": "09",
+      "file": "data/imas/docs/09.10.json",
+      "tags": ["clearance", "очищення", "ERW", "глибина", "якість"],
+      "updated": "2026-08-08"
+    },
+    {
+      "id": "09.11",
+      "code": "IMAS 09.11",
+      "title_uk": "Очищення району бойових дій (BAC)",
+      "title_en": "Battle area clearance (BAC)",
+      "series": "09",
+      "file": "data/imas/docs/09.11.json",
+      "tags": ["BAC", "battle area", "ERW", "касетні", "UXO", "поверхневе"],
+      "updated": "2026-09-04"
+    },
+    {
+      "id": "09.13",
+      "code": "IMAS 09.13",
+      "title_uk": "Очищення будівель",
+      "title_en": "Building clearance",
+      "series": "09",
+      "file": "data/imas/docs/09.13.json",
+      "tags": ["будівлі", "building clearance", "urban", "розтяжка", "IED", "деокупація"],
+      "updated": "2026-09-04"
+    },
+    {
+      "id": "09.30",
+      "code": "IMAS 09.30",
+      "title_uk": "Знешкодження вибухонебезпечних предметів (EOD)",
+      "title_en": "Explosive ordnance disposal (EOD)",
+      "series": "09",
+      "file": "data/imas/docs/09.30.json",
+      "tags": ["EOD", "знешкодження", "UXO", "ERW", "рівні EOD", "RSP"],
+      "updated": "2026-09-04"
+    },
+    {
+      "id": "09.31",
+      "code": "IMAS 09.31",
+      "title_uk": "Знешкодження саморобних вибухових пристроїв (IEDD)",
+      "title_en": "Improvised explosive device disposal (IEDD)",
+      "series": "09",
+      "file": "data/imas/docs/09.31.json",
+      "tags": ["IEDD", "IED", "СВП", "розтяжка", "RSP", "remote"],
+      "updated": "2026-09-04"
+    },
+    {
+      "id": "10.10",
+      "code": "IMAS 10.10",
+      "title_uk": "Охорона праці — загальні вимоги",
+      "title_en": "Occupational health and safety – general requirements",
+      "series": "10",
+      "file": "data/imas/docs/10.10.json",
+      "tags": ["OHS", "безпека", "охорона праці", "ризики", "ISO 45001"],
+      "updated": "2026-08-08"
+    },
+    {
+      "id": "10.20",
+      "code": "IMAS 10.20",
+      "title_uk": "Безпека на робочому майданчику розмінування",
+      "title_en": "Safety & occupational health – demining worksite safety",
+      "series": "10",
+      "file": "data/imas/docs/10.20.json",
+      "tags": ["майданчик", "дистанції", "PPE", "знешкодження", "worksite"],
+      "updated": "2026-08-08"
+    }
+  ]
+}

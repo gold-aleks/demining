@@ -1,0 +1,424 @@
+[
+  {
+    "page": 246,
+    "name": "МВЧ-62",
+    "images": [
+      {
+        "file": "fuze_p246_0.png",
+        "w": 595,
+        "h": 328
+      }
+    ]
+  },
+  {
+    "page": 247,
+    "name": "МВП-62M",
+    "images": [
+      {
+        "file": "fuze_p247_0.png",
+        "w": 644,
+        "h": 327
+      }
+    ]
+  },
+  {
+    "page": 248,
+    "name": "M-6",
+    "images": [
+      {
+        "file": "fuze_p248_0.png",
+        "w": 218,
+        "h": 322
+      }
+    ]
+  },
+  {
+    "page": 249,
+    "name": "M-12",
+    "images": [
+      {
+        "file": "fuze_p249_0.png",
+        "w": 274,
+        "h": 322
+      }
+    ]
+  },
+  {
+    "page": 250,
+    "name": "РГМ-2",
+    "images": [
+      {
+        "file": "fuze_p250_0.png",
+        "w": 430,
+        "h": 323
+      }
+    ]
+  },
+  {
+    "page": 251,
+    "name": "ГПВ-3",
+    "images": [
+      {
+        "file": "fuze_p251_0.png",
+        "w": 674,
+        "h": 327
+      }
+    ]
+  },
+  {
+    "page": 252,
+    "name": "АР-5",
+    "images": [
+      {
+        "file": "fuze_p252_0.png",
+        "w": 675,
+        "h": 322
+      }
+    ]
+  },
+  {
+    "page": 253,
+    "name": "T-7",
+    "images": [
+      {
+        "file": "fuze_p253_0.png",
+        "w": 669,
+        "h": 325
+      }
+    ]
+  },
+  {
+    "page": 254,
+    "name": "МРВ",
+    "images": [
+      {
+        "file": "fuze_p254_0.png",
+        "w": 213,
+        "h": 322
+      },
+      {
+        "file": "fuze_p254_1.png",
+        "w": 183,
+        "h": 322
+      }
+    ]
+  },
+  {
+    "page": 255,
+    "name": "TM-120",
+    "images": [
+      {
+        "file": "fuze_p255_0.png",
+        "w": 669,
+        "h": 327
+      }
+    ]
+  },
+  {
+    "page": 256,
+    "name": "АТК (ЕЛЕКТРОМЕХАНІЧНІ)",
+    "images": [
+      {
+        "file": "fuze_p256_0.png",
+        "w": 483,
+        "h": 322
+      }
+    ]
+  },
+  {
+    "page": 257,
+    "name": "АВУ",
+    "images": [
+      {
+        "file": "fuze_p257_0.png",
+        "w": 567,
+        "h": 323
+      }
+    ]
+  },
+  {
+    "page": 258,
+    "name": "УЗРГМ-2",
+    "images": [
+      {
+        "file": "fuze_p258_0.png",
+        "w": 470,
+        "h": 322
+      }
+    ]
+  },
+  {
+    "page": 259,
+    "name": "A-670M",
+    "images": [
+      {
+        "file": "fuze_p259_0.png",
+        "w": 451,
+        "h": 322
+      },
+      {
+        "file": "fuze_p259_1.png",
+        "w": 226,
+        "h": 249
+      }
+    ]
+  },
+  {
+    "page": 260,
+    "name": "9E246M",
+    "images": [
+      {
+        "file": "fuze_p260_0.png",
+        "w": 446,
+        "h": 327
+      },
+      {
+        "file": "fuze_p260_1.png",
+        "w": 228,
+        "h": 324
+      }
+    ]
+  },
+  {
+    "page": 261,
+    "name": "9E272",
+    "images": [
+      {
+        "file": "fuze_p261_0.png",
+        "w": 340,
+        "h": 322
+      },
+      {
+        "file": "fuze_p261_1.png",
+        "w": 340,
+        "h": 322
+      }
+    ]
+  },
+  {
+    "page": 262,
+    "name": "ГО-2",
+    "images": [
+      {
+        "file": "fuze_p262_0.png",
+        "w": 121,
+        "h": 669
+      },
+      {
+        "file": "fuze_p262_1.png",
+        "w": 116,
+        "h": 201
+      }
+    ]
+  },
+  {
+    "page": 263,
+    "name": "ДТМ-75",
+    "images": [
+      {
+        "file": "fuze_p263_0.png",
+        "w": 369,
+        "h": 327
+      },
+      {
+        "file": "fuze_p263_1.png",
+        "w": 306,
+        "h": 322
+      }
+    ]
+  },
+  {
+    "page": 264,
+    "name": "M-5M",
+    "images": [
+      {
+        "file": "fuze_p264_0.png",
+        "w": 242,
+        "h": 322
+      },
+      {
+        "file": "fuze_p264_1.png",
+        "w": 335,
+        "h": 327
+      }
+    ]
+  },
+  {
+    "page": 265,
+    "name": "МУВ-4",
+    "images": [
+      {
+        "file": "fuze_p265_0.png",
+        "w": 674,
+        "h": 300
+      }
+    ]
+  },
+  {
+    "page": 266,
+    "name": "T90",
+    "images": [
+      {
+        "file": "fuze_p266_0.png",
+        "w": 323,
+        "h": 300
+      }
+    ]
+  },
+  {
+    "page": 267,
+    "name": "В-24А",
+    "images": [
+      {
+        "file": "fuze_p267_0.png",
+        "w": 669,
+        "h": 304
+      }
+    ]
+  },
+  {
+    "page": 268,
+    "name": "РВ-25",
+    "images": [
+      {
+        "file": "fuze_p268_0.png",
+        "w": 241,
+        "h": 566
+      }
+    ]
+  },
+  {
+    "page": 269,
+    "name": "ВП-7M",
+    "images": [
+      {
+        "file": "fuze_p269_0.png",
+        "w": 214,
+        "h": 299
+      },
+      {
+        "file": "fuze_p269_1.png",
+        "w": 175,
+        "h": 299
+      }
+    ]
+  },
+  {
+    "page": 270,
+    "name": "ВП-22",
+    "images": [
+      {
+        "file": "fuze_p270_0.png",
+        "w": 271,
+        "h": 299
+      }
+    ]
+  },
+  {
+    "page": 271,
+    "name": "В5-К",
+    "images": [
+      {
+        "file": "fuze_p271_0.png",
+        "w": 243,
+        "h": 304
+      },
+      {
+        "file": "fuze_p271_1.png",
+        "w": 143,
+        "h": 299
+      }
+    ]
+  },
+  {
+    "page": 272,
+    "name": "RALEC F3",
+    "images": [
+      {
+        "file": "fuze_p272_0.png",
+        "w": 614,
+        "h": 251
+      }
+    ]
+  },
+  {
+    "page": 273,
+    "name": "KZ 984",
+    "images": [
+      {
+        "file": "fuze_p273_0.png",
+        "w": 124,
+        "h": 299
+      },
+      {
+        "file": "fuze_p273_1.png",
+        "w": 332,
+        "h": 295
+      }
+    ]
+  },
+  {
+    "page": 274,
+    "name": "M/49",
+    "images": [
+      {
+        "file": "fuze_p274_0.png",
+        "w": 327,
+        "h": 223
+      },
+      {
+        "file": "fuze_p274_1.png",
+        "w": 446,
+        "h": 327
+      }
+    ]
+  },
+  {
+    "page": 275,
+    "name": "M557",
+    "images": [
+      {
+        "file": "fuze_p275_0.png",
+        "w": 335,
+        "h": 287
+      },
+      {
+        "file": "fuze_p275_1.png",
+        "w": 326,
+        "h": 300
+      }
+    ]
+  },
+  {
+    "page": 276,
+    "name": "M739",
+    "images": [
+      {
+        "file": "fuze_p276_0.png",
+        "w": 299,
+        "h": 141
+      },
+      {
+        "file": "fuze_p276_1.png",
+        "w": 409,
+        "h": 266
+      }
+    ]
+  },
+  {
+    "page": 277,
+    "name": "M782",
+    "images": [
+      {
+        "file": "fuze_p277_0.png",
+        "w": 158,
+        "h": 300
+      },
+      {
+        "file": "fuze_p277_1.png",
+        "w": 409,
+        "h": 267
+      }
+    ]
+  }
+]

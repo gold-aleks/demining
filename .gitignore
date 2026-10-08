@@ -1,0 +1,11 @@
+.env
+.ftp-sync-state.json
+.cursor-api-key
+.cursor-worker-logs/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.log

@@ -1,0 +1,81 @@
+{
+  "version": "2.0",
+  "updated": "2026-09-04",
+  "title": "Розмінування України",
+  "description": "Інтерактивна енциклопедія вибухонебезпечних предметів",
+  "language": "uk",
+  "categories": [
+    {
+      "id": "mines",
+      "name": "Міни",
+      "index": "data/indexes/mines.json",
+      "count": 69
+    },
+    {
+      "id": "cluster",
+      "name": "Касетні боєприпаси",
+      "index": "data/indexes/cluster.json",
+      "count": 11
+    },
+    {
+      "id": "artillery",
+      "name": "Артилерійські снаряди",
+      "index": "data/indexes/artillery.json",
+      "count": 8
+    },
+    {
+      "id": "rockets",
+      "name": "Ракети РСЗВ",
+      "index": "data/indexes/rockets.json",
+      "count": 21
+    },
+    {
+      "id": "missiles",
+      "name": "Ракети",
+      "index": "data/indexes/missiles.json",
+      "count": 9
+    },
+    {
+      "id": "aerial-bombs",
+      "name": "Авіабомби",
+      "index": "data/indexes/aerial-bombs.json",
+      "count": 42
+    },
+    {
+      "id": "grenades",
+      "name": "Гранати",
+      "index": "data/indexes/grenades.json",
+      "count": 13
+    },
+    {
+      "id": "rpg",
+      "name": "Реактивні гранати",
+      "index": "data/indexes/rpg.json",
+      "count": 2
+    },
+    {
+      "id": "mortar",
+      "name": "Мінометні міни",
+      "index": "data/indexes/mortar.json",
+      "count": 33
+    },
+    {
+      "id": "fuzes",
+      "name": "Підривники",
+      "index": "data/indexes/fuzes.json",
+      "count": 40
+    },
+    {
+      "id": "ied",
+      "name": "IED",
+      "index": "data/indexes/ied.json",
+      "count": 1
+    },
+    {
+      "id": "uav",
+      "name": "БПЛА",
+      "index": "data/indexes/uav.json",
+      "count": 15
+    }
+  ]
+}

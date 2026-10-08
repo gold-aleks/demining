@@ -1,0 +1,359 @@
+{
+  "category": "Касетні боєприпаси",
+  "folder": "cluster",
+  "objects": [
+    {
+      "id": "9N235",
+      "name": "9Н235",
+      "family": "9Н235",
+      "category": "Касетні боєприпаси",
+      "type": "Осколковий касетний субоєприпас (HE-FRAG)",
+      "thumbnail": "data/photos/9H235.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1989,
+      "updated": "2026-08-14",
+      "tags": [
+        "9Н235",
+        "9H235",
+        "9N235",
+        "касетний",
+        "субоєприпас",
+        "осколковий",
+        "Смерч",
+        "Ураган",
+        "РСЗВ",
+        "cluster",
+        "bomblet"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "3O10",
+      "name": "3-О-10",
+      "family": "3-О-10",
+      "category": "Касетні боєприпаси",
+      "type": "Осколково-фугасний касетний субоєприпас (HE-FRAG)",
+      "thumbnail": "data/photos/3-O-10.webp",
+      "danger_level": "critical",
+      "country": [
+        "росія"
+      ],
+      "updated": "2026-08-14",
+      "tags": [
+        "3-О-10",
+        "3O10",
+        "3-O-10",
+        "О-10",
+        "касетний",
+        "субоєприпас",
+        "осколково-фугасний",
+        "Тюльпан",
+        "2С4",
+        "3-О-8",
+        "240 мм",
+        "cluster",
+        "bomblet"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "9N210",
+      "name": "9Н210",
+      "family": "9Н210",
+      "category": "Касетні боєприпаси",
+      "type": "Осколковий касетний субоєприпас (HE-FRAG)",
+      "thumbnail": "data/photos/9n210.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1975,
+      "updated": "2026-08-14",
+      "tags": [
+        "9Н210",
+        "9H210",
+        "9N210",
+        "касетний",
+        "субоєприпас",
+        "осколковий",
+        "Ураган",
+        "9М27К",
+        "РСЗВ",
+        "cluster",
+        "bomblet"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": true
+    },
+    {
+      "id": "AO25RT",
+      "name": "АО-2.5РТ / АО-2.5РТМ",
+      "family": "АО-2.5РТ",
+      "category": "Касетні боєприпаси",
+      "type": "Осколковий касетний субоєприпас (HE-FRAG), ротаційний",
+      "thumbnail": "data/photos/AO-2.5-RT_RTM.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1980,
+      "updated": "2026-09-01",
+      "tags": [
+        "АО-2.5РТ",
+        "АО-2.5РТМ",
+        "AO-2.5RT",
+        "AO-2.5RTM",
+        "AO25RT",
+        "РБК-500",
+        "касетний",
+        "субоєприпас",
+        "осколковий",
+        "cluster",
+        "bomblet"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "PTAB25",
+      "name": "ПТАБ-2.5КО",
+      "family": "ПТАБ-2.5",
+      "category": "Касетні боєприпаси",
+      "type": "Кумулятивно-осколковий касетний субоєприпас (HEAT / HEDP)",
+      "thumbnail": "data/photos/ptab25.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1980,
+      "updated": "2026-09-01",
+      "tags": [
+        "ПТАБ-2.5КО",
+        "ПТАБ-2.5",
+        "PTAB-2.5KO",
+        "PTAB-2.5",
+        "PTAB25",
+        "РБК-500",
+        "КМГУ",
+        "касетний",
+        "субоєприпас",
+        "кумулятивний",
+        "HEAT",
+        "cluster",
+        "bomblet"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "SHOAB05",
+      "name": "ШОАБ-0.5",
+      "family": "ШОАБ-0.5",
+      "category": "Касетні боєприпаси",
+      "type": "Осколковий касетний субоєприпас (HE-FRAG), кульовий",
+      "thumbnail": "data/photos/shoab05.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1980,
+      "updated": "2026-09-01",
+      "tags": [
+        "ШОАБ-0.5",
+        "ШОАБ-0,5",
+        "ShOAB-0.5",
+        "SHOAB-0.5",
+        "SHOAB05",
+        "РБК-500",
+        "касетний",
+        "субоєприпас",
+        "кулька",
+        "осколковий",
+        "cluster",
+        "bomblet"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "SPBE1",
+      "name": "СПБЕ",
+      "family": "СПБЕ / Мотив-3",
+      "category": "Касетні боєприпаси",
+      "type": "Самоприцілювальний протитанковий субоєприпас (EFP / ударне ядро)",
+      "thumbnail": "data/photos/SPBE-1.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1988,
+      "updated": "2026-09-01",
+      "tags": [
+        "СПБЕ",
+        "СПБЭ",
+        "SPBE",
+        "SPBE-1",
+        "Мотив-3",
+        "РБК-500",
+        "9М55К1",
+        "касетний",
+        "субоєприпас",
+        "ударне ядро",
+        "EFP",
+        "cluster",
+        "sensor-fuzed"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "9N24",
+      "name": "9Н24",
+      "family": "9Н24",
+      "category": "Касетні боєприпаси",
+      "type": "Осколковий касетний субоєприпас (HE-FRAG)",
+      "thumbnail": "data/photos/9N24.webp",
+      "danger_level": "critical",
+      "country": [
+        "СРСР",
+        "росія"
+      ],
+      "service_since": 1976,
+      "updated": "2026-09-01",
+      "tags": [
+        "9Н24",
+        "9H24",
+        "9N24",
+        "Точка",
+        "Точка-У",
+        "Tochka",
+        "9М79",
+        "касетний",
+        "субоєприпас",
+        "осколковий",
+        "cluster",
+        "bomblet"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "9N730",
+      "name": "9Н730",
+      "family": "9Н730 / 9Н722К",
+      "category": "Касетні боєприпаси",
+      "type": "Осколковий касетний субоєприпас (HE-FRAG)",
+      "thumbnail": "data/photos/9H730.webp",
+      "danger_level": "critical",
+      "country": [
+        "росія"
+      ],
+      "service_since": 2008,
+      "updated": "2026-09-04",
+      "tags": [
+        "9Н730",
+        "9H730",
+        "9N730",
+        "9Х730",
+        "Іскандер",
+        "Iskander",
+        "9М723",
+        "9Е156",
+        "касетний",
+        "субоєприпас",
+        "осколковий",
+        "cluster",
+        "bomblet"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "3B30",
+      "name": "3Б30",
+      "family": "3Б30 / КОБЕ",
+      "category": "Касетні боєприпаси",
+      "type": "Кумулятивно-осколковий касетний субоєприпас (HEAT / DPICM)",
+      "thumbnail": "data/photos/3B30.webp",
+      "danger_level": "critical",
+      "country": [
+        "росія"
+      ],
+      "service_since": 1990,
+      "updated": "2026-09-01",
+      "tags": [
+        "3Б30",
+        "3B30",
+        "КОБЕ",
+        "АДП77",
+        "ADP77",
+        "9М55К5",
+        "9М218",
+        "Смерч",
+        "Град",
+        "касетний",
+        "субоєприпас",
+        "кумулятивний",
+        "DPICM",
+        "cluster",
+        "bomblet"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    },
+    {
+      "id": "M42",
+      "name": "M42 / M46",
+      "family": "M42 DPICM",
+      "category": "Касетні боєприпаси",
+      "type": "Кумулятивно-осколковий касетний субоєприпас (HEAT / DPICM)",
+      "thumbnail": "data/photos/M42.webp",
+      "danger_level": "critical",
+      "country": [
+        "США",
+        "країни НАТО",
+        "Україна"
+      ],
+      "service_since": 1975,
+      "updated": "2026-09-01",
+      "tags": [
+        "M42",
+        "M46",
+        "M77",
+        "M483",
+        "M864",
+        "DPICM",
+        "155 мм",
+        "касетний",
+        "субоєприпас",
+        "кумулятивний",
+        "cluster",
+        "bomblet"
+      ],
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101820">
+  <meta name="description" content="Картка вибухонебезпечного предмета — Розмінування України">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="EORE UA">
+  <title>Картка об'єкта — Розмінування України</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="img/logo.png">
+  <link rel="apple-touch-icon" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="container app-header__inner">
+      <a class="brand" href="index.html" aria-label="На головну">
+        <img class="brand__logo" src="img/logo.png" alt="" width="40" height="40">
+        <span class="brand__text">
+          <span class="brand__title">Розмінування України</span>
+          <span class="brand__subtitle">Картка об'єкта</span>
+        </span>
+      </a>
+      <div class="header-actions">
+        <a class="icon-btn" href="glossary.html" aria-label="Скорочення" title="Скорочення">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 6h10M4 12h16M4 18h8"></path>
+            <path d="M16 16l2 2 4-4"></path>
+          </svg>
+        </a>
+        <a class="icon-btn" href="imas.html" aria-label="Стандарти IMAS" title="IMAS">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 3h9l3 3v15H6z"></path>
+            <path d="M15 3v3h3"></path>
+            <path d="M9 11h6M9 15h6M9 19h3"></path>
+          </svg>
+        </a>
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Перемкнути тему" title="Тема">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" id="objectPage">
+    <div class="empty-state" id="objectLoading">Завантаження картки…</div>
+    <div class="empty-state is-hidden" id="objectError">
+      Картку не знайдено. <a href="index.html">Повернутися до каталогу</a>
+    </div>
+
+    <article id="objectContent" class="is-hidden fade-in">
+      <div class="object-hero">
+        <div class="object-hero__nav">
+          <button type="button" class="back-btn" id="backBtn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M15 18l-6-6 6-6"></path>
+            </svg>
+            Назад
+          </button>
+          <button type="button" class="favorite-btn" id="favoriteBtn" aria-pressed="false">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M12 17.3l-6.2 3.3 1.2-7L1.8 8.7l7-1L12 1.3l3.2 6.4 7 1-5.2 5 1.2 7z"></path>
+            </svg>
+            <span data-favorite-label>Обране</span>
+          </button>
+        </div>
+
+        <div class="object-layout">
+          <div class="object-hero__media" id="objectHeroMedia"></div>
+          <div>
+            <h1 class="object-hero__title" id="objectTitle"></h1>
+            <div class="object-hero__row" id="objectMeta"></div>
+            <p class="object-hero__desc" id="objectDesc"></p>
+            <div class="warning-banner is-hidden" id="objectWarning"></div>
+          </div>
+        </div>
+      </div>
+
+      <section class="related-objects is-hidden" id="objectRelated" aria-label="Пов’язані об’єкти"></section>
+
+      <div class="accordion" id="objectAccordion"></div>
+    </article>
+  </main>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Перегляд медіа" hidden>
+    <div class="lightbox__content">
+      <button type="button" class="lightbox__close" id="lightboxClose" aria-label="Закрити">✕</button>
+      <button type="button" class="lightbox__nav lightbox__prev" id="lightboxPrev" aria-label="Попереднє">‹</button>
+      <button type="button" class="lightbox__nav lightbox__next" id="lightboxNext" aria-label="Наступне">›</button>
+      <div id="lightboxStage"></div>
+      <p class="lightbox__caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <footer class="app-footer">
+    <div class="container">
+      <p>Інформація лише для ознайомлення. Роботи з ВНП — лише для підготовлених фахівців.</p>
+      <p>
+        <a href="glossary.html">Скорочення</a>
+        ·
+        <a href="imas.html">Стандарти IMAS</a>
+      </p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/object-page.js"></script>
+</body>
+</html>

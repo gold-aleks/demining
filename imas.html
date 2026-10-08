@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101820">
+  <meta name="description" content="Польові витяги стандартів IMAS для гуманітарного розмінування — Розмінування України">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="EORE UA">
+  <title>Стандарти IMAS — Розмінування України</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="img/logo.png">
+  <link rel="apple-touch-icon" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="container app-header__inner">
+      <a class="brand" href="index.html" aria-label="На головну">
+        <img class="brand__logo" src="img/logo.png" alt="" width="40" height="40">
+        <span class="brand__text">
+          <span class="brand__title">Розмінування України</span>
+          <span class="brand__subtitle">Стандарти IMAS</span>
+        </span>
+      </a>
+      <div class="header-actions">
+        <a class="icon-btn" href="glossary.html" aria-label="Скорочення" title="Скорочення">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 6h10M4 12h16M4 18h8"></path>
+            <path d="M16 16l2 2 4-4"></path>
+          </svg>
+        </a>
+        <a class="icon-btn" href="imas.html" aria-label="Стандарти IMAS" title="IMAS" aria-current="page">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 3h9l3 3v15H6z"></path>
+            <path d="M15 3v3h3"></path>
+            <path d="M9 11h6M9 15h6M9 19h3"></path>
+          </svg>
+        </a>
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Перемкнути тему" title="Тема">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="hero__eyebrow">Довідник</p>
+        <h1 class="hero__title">Стандарти IMAS</h1>
+        <p class="hero__lead">
+          Стислі польові витяги з Міжнародних стандартів протимінної діяльності.
+          Для швидкого орієнтиру; офіційний текст — на сайті IMAS.
+        </p>
+        <form class="search-box" role="search">
+          <label class="sr-only" for="imasSearch">Пошук стандартів IMAS</label>
+          <input
+            id="imasSearch"
+            class="search-box__input"
+            type="search"
+            placeholder="Пошук: 09.11, BAC, NTS, EOD, IEDD…"
+            autocomplete="off"
+            enterkeyhint="search"
+          >
+          <button class="search-box__submit" type="submit" aria-label="Шукати">
+            <svg class="search-box__icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="M20 20l-3.5-3.5"></path>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section is-hidden" id="imasDetailSection" aria-labelledby="imasDetailTitle">
+      <div class="container">
+        <div class="imas-detail" id="imasDetail"></div>
+      </div>
+    </section>
+
+    <section class="section" id="imasResults" aria-labelledby="imasListTitle">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title" id="imasListTitle">Стандарти</h2>
+          <span class="section__meta" id="imasCount">0 стандартів</span>
+        </div>
+
+        <div class="filters" id="imasFilters">
+          <div class="filter-row">
+            <div class="filter-field">
+              <label for="filterImasSeries">Серія</label>
+              <select id="filterImasSeries">
+                <option value="">Усі</option>
+              </select>
+            </div>
+          </div>
+          <div class="filters__actions">
+            <button type="button" class="link-btn" id="resetImasFilters">Скинути фільтри</button>
+          </div>
+        </div>
+
+        <div class="chip-row" id="imasSeriesChips" aria-label="Серії IMAS"></div>
+
+        <div class="imas-list" id="imasList"></div>
+        <div class="empty-state is-hidden" id="imasEmpty">
+          Нічого не знайдено. Спробуйте змінити пошук або фільтр серії.
+        </div>
+
+        <p class="imas-disclaimer" id="imasDisclaimer"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <div class="container">
+      <p><strong>Розмінування України</strong> — освітній довідник EORE / Humanitarian Demining.</p>
+      <p>Витяги IMAS не замінюють офіційні стандарти та SOP організації.</p>
+      <p>
+        <a href="index.html">← До каталогу ВНП</a>
+        ·
+        <a href="glossary.html">Скорочення</a>
+        ·
+        <a href="https://www.mineactionstandards.org/" target="_blank" rel="noopener noreferrer">Офіційний сайт IMAS</a>
+      </p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/imas.js"></script>
+</body>
+</html>

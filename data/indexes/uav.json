@@ -1,0 +1,449 @@
+{
+  "category": "БПЛА",
+  "folder": "uav",
+  "objects": [
+    {
+      "id": "AQ400",
+      "name": "AQ-400 «Scythe»",
+      "category": "БПЛА",
+      "type": "Ударний одноразовий БПЛА великої дальності (камікадзе)",
+      "subtype": "Осколково-фугасна БЧ (HE-Blast)",
+      "family": "AQ-400 / Scythe",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/aq400.webp",
+      "country": [
+        "Україна"
+      ],
+      "service_since": 2023,
+      "updated": "2026-08-16",
+      "status": "застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "AQ-400",
+        "Scythe",
+        "БПЛА",
+        "UCAV",
+        "камікадзе",
+        "HE-Blast",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "BabaYaga",
+      "name": "«Баба-Яга» / Vampire",
+      "category": "БПЛА",
+      "type": "Важкий мультироторний ударний БПЛА (бомбардувальник)",
+      "subtype": "Платформа скиду ОФ / термобаричних / запальних боєприпасів",
+      "family": "Баба-Яга / Vampire",
+      "danger_level": "high",
+      "thumbnail": "data/photos/babayaga.webp",
+      "country": [
+        "Україна"
+      ],
+      "service_since": 2022,
+      "updated": "2026-08-16",
+      "status": "широко застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "Баба-Яга",
+        "Baba-Yaga",
+        "Vampire",
+        "R18",
+        "БПЛА",
+        "UCAV",
+        "коптер",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "PD2",
+      "name": "PD-2",
+      "category": "БПЛА",
+      "type": "Багатоцільовий БПЛА (розвідка / носій корисного навантаження)",
+      "subtype": "Фіксованокрилий / VTOL-модуль",
+      "family": "PD / People's Drone",
+      "danger_level": "high",
+      "thumbnail": "data/photos/pd2.webp",
+      "country": [
+        "Україна"
+      ],
+      "service_since": 2020,
+      "updated": "2026-08-16",
+      "status": "на озброєнні / застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "PD-2",
+        "Ukrspecsystems",
+        "VTOL",
+        "БПЛА",
+        "UCAV",
+        "розвідка",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "SkyfallP1Sun",
+      "name": "SkyFall P1-Sun",
+      "category": "БПЛА",
+      "type": "FPV-перехоплювач БПЛА (VTOL)",
+      "subtype": "Осколково-фугасна БЧ (HE-Frag)",
+      "family": "P1-Sun / SkyFall",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/skyfallp1sun.webp",
+      "country": [
+        "Україна"
+      ],
+      "service_since": 2025,
+      "updated": "2026-08-16",
+      "status": "застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "P1-Sun",
+        "SkyFall",
+        "перехоплювач",
+        "FPV",
+        "БПЛА",
+        "UCAV",
+        "HE-Frag",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "ST35",
+      "name": "ST-35 «Грім»",
+      "category": "БПЛА",
+      "type": "Баражуючий боєприпас (loitering munition)",
+      "subtype": "ОФ / термобарична / запальна / кумулятивна БЧ",
+      "family": "ST-35 / Silent Thunder / Грім",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/st35.webp",
+      "country": [
+        "Україна"
+      ],
+      "service_since": 2020,
+      "updated": "2026-08-16",
+      "status": "застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "ST-35",
+        "Грім",
+        "Silent Thunder",
+        "Athlon Avia",
+        "баражуючий",
+        "БПЛА",
+        "UCAV",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "Orion",
+      "name": "«Оріон» / «Іноходець»",
+      "category": "БПЛА",
+      "type": "Ударно-розвідувальний БПЛА середньої висоти й великої тривалості польоту (MALE)",
+      "subtype": "Платформа керованих бомб і ракет (корисне навантаження до ~200 кг)",
+      "family": "Оріон / Іноходець / Helios",
+      "danger_level": "high",
+      "thumbnail": "data/photos/orion.webp",
+      "country": [
+        "росія"
+      ],
+      "service_since": 2020,
+      "updated": "2026-08-16",
+      "status": "застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "Оріон",
+        "Orion",
+        "Іноходець",
+        "Кронштадт",
+        "MALE",
+        "БПЛА",
+        "UCAV",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "Orlan10",
+      "name": "«Орлан-10»",
+      "category": "БПЛА",
+      "type": "Багатоцільовий розвідувальний БПЛА середньої дальності",
+      "subtype": "Фіксованокрилий; ударний варіант зі скидом осколкових бомблетів",
+      "family": "Орлан",
+      "danger_level": "high",
+      "thumbnail": "data/photos/orlan10.webp",
+      "country": [
+        "росія"
+      ],
+      "service_since": 2011,
+      "updated": "2026-08-16",
+      "status": "масово застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "Орлан-10",
+        "Orlan-10",
+        "розвідка",
+        "БПЛА",
+        "UCAV",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "Scalpel",
+      "name": "«Скальпель»",
+      "category": "БПЛА",
+      "type": "Баражуючий боєприпас (loitering munition)",
+      "subtype": "Осколково-фугасна БЧ (HE-Blast)",
+      "family": "Scalpel / Скальпель",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/scalpel.webp",
+      "country": [
+        "росія"
+      ],
+      "service_since": 2023,
+      "updated": "2026-08-16",
+      "status": "застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "Скальпель",
+        "Scalpel",
+        "баражуючий",
+        "Lancet",
+        "БПЛА",
+        "UCAV",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "ZALAKub",
+      "name": "ZALA «Куб» (Kub-BLA)",
+      "category": "БПЛА",
+      "type": "Ударний одноразовий БПЛА (камікадзе)",
+      "subtype": "Осколково-фугасна БЧ ОФБЧ-2.5 (програмована висота підриву)",
+      "family": "ZALA / Куб",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/zalakub.webp",
+      "country": [
+        "росія"
+      ],
+      "service_since": 2019,
+      "updated": "2026-08-16",
+      "status": "застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "Куб",
+        "Kub",
+        "ZALA",
+        "камікадзе",
+        "БПЛА",
+        "UCAV",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "ZALALancet",
+      "name": "ZALA Lancet",
+      "category": "БПЛА",
+      "type": "Баражуючий боєприпас (loitering munition)",
+      "subtype": "ОФ / термобарична / кумулятивна БЧ",
+      "family": "ZALA Lancet",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/zalalancet.webp",
+      "country": [
+        "росія"
+      ],
+      "service_since": 2019,
+      "updated": "2026-08-16",
+      "status": "масово застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "Lancet",
+        "Ланцет",
+        "ZALA",
+        "баражуючий",
+        "БПЛА",
+        "UCAV",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "Italmas",
+      "name": "«Італмас» / Italmas",
+      "category": "БПЛА",
+      "type": "Ударний одноразовий БПЛА середньої дальності (камікадзе)",
+      "subtype": "Осколково-фугасна БЧ (~15–25 кг; заяви до ~40 кг)",
+      "family": "ZALA / Італмас / Виріб 54",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/italmas.webp",
+      "country": [
+        "росія"
+      ],
+      "service_since": 2023,
+      "updated": "2026-09-04",
+      "status": "застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "Італмас",
+        "Italmas",
+        "Виріб 54",
+        "газонокосарка",
+        "камікадзе",
+        "БПЛА",
+        "UCAV",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "ForpostR",
+      "name": "«Форпост-Р»",
+      "category": "БПЛА",
+      "type": "Ударно-розвідувальний БПЛА (ліцензійний Searcher Mk II)",
+      "subtype": "Платформа скиду керованих бомб (KAB-20 тощо)",
+      "family": "Форпост / Searcher",
+      "danger_level": "high",
+      "thumbnail": "data/photos/forpost.webp",
+      "country": [
+        "росія"
+      ],
+      "service_since": 2014,
+      "updated": "2026-08-16",
+      "status": "застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "Форпост",
+        "Forpost-R",
+        "Searcher",
+        "БПЛА",
+        "UCAV",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "Molniya2",
+      "name": "«Молнія-2»",
+      "category": "БПЛА",
+      "type": "Фіксованокрилий FPV ударний / розвідувальний БПЛА (камікадзе)",
+      "subtype": "ОФ / термобарична БЧ; збільшений варіант — носій ТМ-62",
+      "family": "Молнія / Molniya",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/molniya2.webp",
+      "country": [
+        "росія"
+      ],
+      "service_since": 2024,
+      "updated": "2026-08-16",
+      "status": "застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "Молнія-2",
+        "Molniya-2",
+        "FPV",
+        "камікадзе",
+        "БПЛА",
+        "UCAV",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "Shahed136",
+      "name": "Shahed-136 / «Герань-2»",
+      "category": "БПЛА",
+      "type": "Ударний одноразовий БПЛА великої дальності (камікадзе)",
+      "subtype": "ОФ / термобарична / осколково-запальна / комбінована БЧ (~50–90 кг)",
+      "family": "Shahed / Герань",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/shahed136.webp",
+      "country": [
+        "Іран",
+        "росія"
+      ],
+      "service_since": 2021,
+      "updated": "2026-08-31",
+      "status": "масово застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "Shahed-136",
+        "Герань-2",
+        "Geran-2",
+        "шахед",
+        "камікадзе",
+        "БПЛА",
+        "UCAV",
+        "ВНП",
+        "UXO"
+      ]
+    },
+    {
+      "id": "Shahed238",
+      "name": "Shahed-238 / «Герань-3»",
+      "category": "БПЛА",
+      "type": "Ударний одноразовий БПЛА великої дальності (камікадзе, турбореактив)",
+      "subtype": "ОФ / термобарична / комбінована БЧ (~50–90 кг)",
+      "family": "Shahed / Герань",
+      "danger_level": "critical",
+      "thumbnail": "data/photos/Shahed238.webp",
+      "country": [
+        "Іран",
+        "росія"
+      ],
+      "service_since": 2023,
+      "updated": "2026-09-04",
+      "status": "застосовується / трапляється як UXO",
+      "has_photos": true,
+      "has_videos": false,
+      "has_schemes": false,
+      "tags": [
+        "Shahed-238",
+        "Герань-3",
+        "Geran-3",
+        "шахед",
+        "турбореактив",
+        "камікадзе",
+        "БПЛА",
+        "UCAV",
+        "ВНП",
+        "UXO"
+      ]
+    }
+  ]
+}
